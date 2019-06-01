@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: pro
+
+---
+spring:
+  profiles: dev
+server:
+  port: 7070
+
+---
+spring:
+  profiles: pro
+server:
+  port: 7071
