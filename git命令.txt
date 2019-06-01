@@ -1,0 +1,56 @@
+﻿git init
+git config user.name=xxxx
+git config user.email=xxxx
+git --global user.name=xxxx
+git --global user.email=xxxx
+
+git status：查看状态
+git add [filename/.]：.表示添加全部
+git rm --cached [filename]
+git commit [-m ""] [filename]
+git log [--pretty=oneline]：只能查看当前以及之前的记录
+git reflog：查看所有记录
+git reset --hard [索引值]
+git reset --hard HEAD^：只能往后退,一个^后退一步，n个后退n步
+git reset --hard HEAD~n：只能往后退,~后面的数字n表示后退n步
+git help reset：浏览本地帮助文档
+git diff [filename] [HEAD^]：将工作去的文件和暂存区/本地库中历史记录进行比较
+
+git branch -v：查看所有的分支
+git branch [分支名称]：创建一个分支
+git checkout [分支名称]：切换分支
+git merge [被合并的分支名称]：先切换到要接受修改的分支，在执行此命令
+git commit：解决冲突的提交命令不能带文件名
+
+git remote add [别名] [GitHub远程地址]：给远程地址起别名
+git remote -v:查看远程地址
+git push [git远程地址/别名] [分支名称]：提交
+git clone [git远程地址/别名]：克隆
+
+克隆之后的变化：
+1.完成的将远程库下载到本地
+2.创建远程地址别名（名称为原来库名字）
+3.初始化本地库
+
+fetch+merge=pull
+git fetch [git远程地址/别名] [远程分支名称]：抓取
+git merge [git远程地址/别名+/远程分支名称]：合并
+git pull [git远程地址/别名] [远程分支名称] [–allow-unrelated-histories(允许拉取不相关库的数据)]：拉取
+
+解决冲突要点：
+1.如果不是基于GitHub远程库的最新版所做的修改，不能推送，必须先拉取本地
+2.拉取下来后如果进入冲突状态，则按照“分支冲突解决”操作解决即可
+
+git push [远程地址] --delete [远程分支名称]：删除远程分支
+git push [远程地址] [本地分支名称]：在远程创建一个和本地一样的分支名称（本地分支必须存在）
+git branch -d [分支名称]：删除本地分支（在创建分支命令基础上加参数-d）
+
+
+
+
+
+
+
+
+
+
