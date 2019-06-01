@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc0672d2-a2e7-4ee5-9bc8-32870b51704a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot_f.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="bc0672d2-a2e7-4ee5-9bc8-32870b51704a" name="Default" comment="" />
     <ignored path="springboot.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huazai/springboot/yml/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="121">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#668#669#0" expanded="true" />
@@ -143,7 +136,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -432,7 +425,7 @@
       <workItem from="1559323377846" duration="820000" />
       <workItem from="1559353719347" duration="1201000" />
       <workItem from="1559365558207" duration="761000" />
-      <workItem from="1559380419775" duration="698000" />
+      <workItem from="1559380419775" duration="700000" />
     </task>
     <servers />
   </component>
@@ -463,7 +456,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46832000" />
+    <option name="totallyTimeSpent" value="46834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,6 +469,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" order="0" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49156627" visible="true" weight="0.21849866" />
@@ -719,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huazai/springboot/yml/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="121">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#668#669#0" expanded="true" />
