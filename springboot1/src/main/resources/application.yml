@@ -1,0 +1,13 @@
+server:
+  port: 8080
+person:
+  last-name: 庞英华
+  age: 23
+  birth: 1996/02/28
+  list: [dog, hourse, cat, monkey, mouse]
+  map: {a: 1,b: 2,c: true}
+  dog:
+    name: ${person.list[0]}
+    age: ${random.int}
+  email: 739967221@qq.com
+
